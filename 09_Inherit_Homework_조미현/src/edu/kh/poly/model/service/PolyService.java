@@ -285,7 +285,7 @@ public class PolyService {
 		}; // arr 배욜요소가 참조하는 모든 객체의 필드값을 출력
 		for(int i= 0; i < arr.length; i++) {
 			System.out.println(i + "번째 요소: " + arr[i].toString());
-			//실행 전 : String edu.kh.poly.model.vo.Car.toString() - 정적바인딩
+			// 실행 전 : String edu.kh.poly.model.vo.Car.toString() - 정적바인딩
 			// 실행 후: 각 객체에 오버라이딩된 toString()이 호출됨- 동적바인딩
 		}
 		
@@ -300,4 +300,6 @@ public class PolyService {
 		
 		
 	}
+
+
 }
